@@ -7,18 +7,36 @@ body {
     border: 2px solid #084298;
 }
 
+#header-navbar .navbar-nav {
+    text-align: center;
+}
+
+
+#header-navbar .nav-link {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+#header-navbar .nav-link:hover {
+    background-color: #e2e6ea;
+}
+
 .tittle {
     margin: 30px 0 30px 0;
 }
 
-.container section{
+.container-fluid section{
     background-color: #9ec5fe;
     border-radius: 20px;
     padding-top: 5px;
 }
 
-.container p {
+.container-fluid p {
     font-size: 25px;
-    padding: 20px;
+    padding: 40px;
     font-family: "Times New Roman", serif;
 }
+
